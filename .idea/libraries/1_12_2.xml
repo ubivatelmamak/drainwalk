@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="1.12.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/game/version/1.12.2/1.12.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <NATIVE>
+      <root url="file://$PROJECT_DIR$/game/version/1.12.2/natives" />
+    </NATIVE>
+    <SOURCES />
+  </library>
+</component>

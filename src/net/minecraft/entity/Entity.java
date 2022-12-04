@@ -1320,9 +1320,9 @@ public abstract class Entity implements ICommandSender
     /**
      * Returns the <b>solid</b> collision bounding box for this entity. Used to make (e.g.) boats solid. Return null if
      * this entity is not solid.
-     *  
+     *
      * For general purposes, use {@link #width} and {@link #height}.
-     *  
+     *
      * @see getEntityBoundingBox
      */
     public AxisAlignedBB getCollisionBoundingBox()
@@ -2821,7 +2821,7 @@ public abstract class Entity implements ICommandSender
      * Gets the name of this thing. This method has slightly different behavior depending on the interface (for <a
      * href="https://github.com/ModCoderPack/MCPBot-Issues/issues/14">technical reasons</a> the same method is used for
      * both IWorldNameable and ICommandSender):
-     *  
+     *
      * <dl>
      * <dt>{@link net.minecraft.util.INameable#getName() INameable.getName()}</dt>
      * <dd>Returns the name of this inventory. If this {@linkplain net.minecraft.inventory#hasCustomName() has a custom
@@ -3196,7 +3196,7 @@ public abstract class Entity implements ICommandSender
      * differently depending on the interface (for <a href="https://github.com/ModCoderPack/MCPBot-
      * Issues/issues/14">technical reasons</a> the same method is used for both IWorldNameable and ICommandSender), but
      * unlike {@link #getName()} this method will generally behave sanely.
-     *  
+     *
      * <dl>
      * <dt>{@link net.minecraft.util.INameable#getDisplayName() INameable.getDisplayName()}</dt>
      * <dd>A normal component. Might be a translation component or a text component depending on the context. Usually
@@ -3240,7 +3240,7 @@ public abstract class Entity implements ICommandSender
      * Checks if this thing has a custom name. This method has slightly different behavior depending on the interface
      * (for <a href="https://github.com/ModCoderPack/MCPBot-Issues/issues/14">technical reasons</a> the same method is
      * used for both IWorldNameable and Entity):
-     *  
+     *
      * <dl>
      * <dt>{@link net.minecraft.util.INameable#hasCustomName() INameable.hasCustomName()}</dt>
      * <dd>If true, then {@link #getName()} probably returns a preformatted name; otherwise, it probably returns a

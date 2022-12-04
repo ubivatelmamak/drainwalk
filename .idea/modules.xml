@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/drainwalk.iml" filepath="$PROJECT_DIR$/.idea/drainwalk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drainwalk.iml" filepath="$PROJECT_DIR$/drainwalk.iml" />
     </modules>
   </component>
 </project>

@@ -1,6 +1,6 @@
 package tech.drainwalk.client.module.modules.combat;
 
-import lombok.Builder;
+
 import net.minecraft.entity.Entity;
 import tech.drainwalk.client.module.Module;
 import tech.drainwalk.client.module.category.Category;
